@@ -1,8 +1,0 @@
-com/demo/controller/HelloController.class
-com/demo/controller/RestResponseEntityExceptionHandler.class
-com/demo/bean/Hello.class
-com/demo/bean/ErrorResponse$ErrorResponseBuilder.class
-com/demo/config/SwaggerConfig.class
-com/demo/HelloApplication.class
-com/demo/validation/HelloValidator.class
-com/demo/bean/ErrorResponse.class
