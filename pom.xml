@@ -13,7 +13,7 @@
 
     <modules>
         <module>hello-world</module>
-        <module>security</module>
+        <module>jwt</module>
         <module>mybatis</module>
     </modules>
 
