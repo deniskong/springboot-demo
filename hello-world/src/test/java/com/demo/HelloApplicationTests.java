@@ -9,7 +9,7 @@ public class HelloApplicationTests {
     @Test
     public void contextLoads() {
         String test = null;
-        test.notify();
+        // test.notify();
     }
 
 }

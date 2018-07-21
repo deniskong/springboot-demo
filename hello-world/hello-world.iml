@@ -16,9 +16,6 @@
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:1.5.12.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:1.5.12.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.12.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-logging:1.5.12.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:jul-to-slf4j:1.7.25" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:log4j-over-slf4j:1.7.25" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.yaml:snakeyaml:1.17" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:1.5.12.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.29" level="project" />
@@ -36,6 +33,12 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-context:4.3.16.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:4.3.16.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:4.3.16.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-logging:1.2.3.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:jcl-over-slf4j:1.7.25" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:jul-to-slf4j:1.7.25" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:log4j-over-slf4j:1.7.25" level="project" />
+    <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.1.11" level="project" />
+    <orderEntry type="library" name="Maven: ch.qos.logback:logback-core:1.1.11" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-data-rest:1.5.12.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-rest-webmvc:2.6.11.RELEASE" level="project" />
@@ -88,14 +91,11 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.httpcomponents:httpcore:4.4.9" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: commons-codec:commons-codec:1.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.httpcomponents:httpmime:4.5.5" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:jcl-over-slf4j:1.7.25" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.intuit.karate:karate-junit4:0.7.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: info.cukes:cucumber-junit:1.2.5" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: info.cukes:cucumber-core:1.2.5" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: info.cukes:cucumber-html:0.2.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: info.cukes:cucumber-jvm-deps:1.0.5" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: info.cukes:gherkin:2.12.2" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: ch.qos.logback:logback-classic:1.2.3" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: ch.qos.logback:logback-core:1.2.3" level="project" />
   </component>
 </module>

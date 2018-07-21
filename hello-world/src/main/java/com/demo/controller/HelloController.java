@@ -52,15 +52,24 @@ public class HelloController {
     }
 
     @PostMapping("/hello")
-    ResponseEntity<?> createHello(@Valid @RequestBody Hello hello) {
+    ResponseEntity<?> createHello(@RequestBody Hello hello) {
+        int random = 5 + (int) (Math.random() * ((10 - 5) + 1));
+        hello.setId(Long.valueOf(random));
+        return ResponseEntity.created(URI.create("/hello/1")).body(hello);
+    }
+
+    @PostMapping("/hello-valid")
+    ResponseEntity<?> createHelloValid(@Valid @RequestBody Hello hello) {
         int random = 5 + (int)(Math.random() * ((10 - 5) + 1));
         hello.setId(Long.valueOf(random));
         return ResponseEntity.created(URI.create("/hello/1")).body(hello);
     }
 
+
     @ExceptionHandler
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     public ErrorResponse handleException(MethodArgumentNotValidException exception) {
+        System.out.println("handleException");
 
         String errorMsg = exception.getBindingResult().getFieldErrors().stream()
                 .map(DefaultMessageSourceResolvable::getDefaultMessage)
@@ -69,9 +78,6 @@ public class HelloController {
 
         return ErrorResponse.builder().message(errorMsg).hello("hello world").build();
     }
-
-
-
 
 
 }

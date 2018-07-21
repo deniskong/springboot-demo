@@ -17,6 +17,8 @@ public class Hello {
     @NotNull(message = "email is required")
     private String email;
 
+    private int age;
+
     public String getName() {
         return name;
     }
@@ -39,5 +41,13 @@ public class Hello {
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 }
