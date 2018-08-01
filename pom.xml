@@ -14,6 +14,7 @@
     <modules>
         <module>hello-world</module>
         <module>jwt</module>
+        <module>oauth</module>
         <module>mybatis</module>
     </modules>
 
