@@ -9,3 +9,5 @@
 <http://localhost:8080/api/hello/toto>
 
 <http://localhost:8080/api/hello?name=toto>
+
+https://github.com/spring-projects/spring-security-oauth/issues/186

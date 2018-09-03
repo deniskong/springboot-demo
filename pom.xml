@@ -16,6 +16,8 @@
         <module>jwt</module>
         <module>oauth</module>
         <module>mybatis</module>
+        <module>jpa</module>
+        <module>exception</module>
     </modules>
 
     <properties>

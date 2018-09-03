@@ -1,13 +1,9 @@
 package com.demo.controller;
 
-import com.demo.bean.ErrorResponse;
 import com.demo.bean.Hello;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import org.springframework.context.support.DefaultMessageSourceResolvable;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -66,9 +62,9 @@ public class HelloController {
     }
 
 
-    @ExceptionHandler
+   /* @ExceptionHandler
     @ResponseStatus(HttpStatus.BAD_REQUEST)
-    public ErrorResponse handleException(MethodArgumentNotValidException exception) {
+    public ErrorResponse handleValidationError(MethodArgumentNotValidException exception) {
         System.out.println("handleException");
 
         String errorMsg = exception.getBindingResult().getFieldErrors().stream()
@@ -77,7 +73,6 @@ public class HelloController {
                 .orElse(exception.getMessage());
 
         return ErrorResponse.builder().message(errorMsg).hello("hello world").build();
-    }
-
+    }*/
 
 }
